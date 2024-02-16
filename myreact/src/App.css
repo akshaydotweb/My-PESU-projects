@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Italiana&family=Lato&display=swap');
+
+body {
+    background-image: url("https://www.mymathews.com/media/institute_banner/PES_University_Electronic_City_Campus_Banner.JPG");
+    background-repeat: repeat-y;
+    background-size: 100%;
+}
+
+:root {
+    --primary-color: RGB(122, 169, 187); /* baby-blue */
+  --secondary-color: RGB(24, 65, 82); /* slate-blue */
+  --accent-color-1: RGB(12, 40, 55); /* navy-blue */
+  --accent-color-2: RGB(234, 81, 37); /* red-color */
+  --accent-color-3: RGB(125, 140, 130); /* tan-color */
+}
+/* BASE STYLES  */
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: #fefefe;
+    outline: none;
+    border: none;
+    text-decoration: none;
+}
+body {
+  background-color: var(--accent-color-1);
+}
+.bckbox {
+    width: 430px;
+    height: 520px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+}
+
+form {
+    height: 500px;
+    width: 350px;
+    background: rgba(0, 0, 0, 0.20);
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 40px rgba(8, 7, 16, 0.6);
+    padding: 50px 35px;
+}
+
+.form-group {
+    margin-top: 50px;
+}
+
+form input,
+textarea {
+    display: block;
+    height: 50px;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.07);
+    border-radius: 5px;
+    padding: 0 10px;
+    margin-top: 30px;
+    font-size: 14px;
+    font-weight: 300;
+    font-family: Lato, 'sans-serif';
+}
+
+textarea {
+    padding: 10px;
+}
+
+::placeholder {
+    color: #e4e4e6;
+}
+
+button {
+    margin-top: 30px;
+    width: 100%;
+    background: var(--primary-color);
+    color: #080710;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 5px;
+
+    font-family: Lato, 'sans-serif';
+}
+button:hover {
+    background: #e5e5e5;
+}
+.social {
+    margin-top: 20px;
+    display: flex;
+}
+
+.social button:hover {
+    background-color: rgba(255, 255, 255, 0.47);
+}
+
+.logo {
+    margin: 0 0 10px 60px;
+    height: 10px;
+}
+.logo img{
+    height: 70px;
+}
+
+
+/*@import url('https://fonts.googleapis.com/css2?family=Italiana&family=Lato&display=swap');*/
+
+/*body {*/
+/*  margin: 0;*/
+/*  font-family: lato, "Open Sans";*/
+/*  -webkit-font-smoothing: antialiased;*/
+/*  -moz-osx-font-smoothing: grayscale;*/
+/*  padding: 10px;*/
+/*  */
+/*  --black : #050517;*/
+/*  --gray : #D3D5D7;*/
+/*  --font : #CF5C36;*/
+/*  --yellow: #EFC88B;*/
+/*  --lighty: #F4E3B2;*/
+/*  */
+/*  background-color: var(--gray);*/
+/*  color: var(--black)*/
+/*}*/
+
+/*.restroName*/
+/*{*/
+/*  font-family: 'Italiana', sans-serif;*/
+/*  font-size: 30px;*/
+/*  color: var(--font);*/
+/*}*/
+
+/* .orderSummary {*/
+/*    font-weight: bold;*/
+/* }*/
+
+/* img{*/
+/*    height: 200px;*/
+/*    border-radius: 3px;*/
+/*    aspect-ratio: 16/10;*/
+/*    object-fit: cover;*/
+/*}*/
+
+/*section {*/
+/*  display: flex;*/
+/*  flex-direction: row;*/
+/*  justify-content: space-evenly;*/
+/*  padding: 70px 0;*/
+/*}*/
+
+/*input {*/
+/*  padding: 5px 10px;*/
+/*  width: 40px;*/
+/*  background-color: var(--gray);*/
+/*  outline: none;*/
+/*  border: 2px solid var(--font);*/
+/*  border-radius: 3px;*/
+/*}*/

@@ -1,0 +1,15 @@
+.student-review-form input[type="checkbox"] {
+    margin-right: 5px;
+  }
+  
+  .student-review-form button[type="submit"],
+  .student-review-form input[type="reset"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #6b94c1;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
